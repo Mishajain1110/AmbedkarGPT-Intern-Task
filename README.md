@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ## 5. Prepare Your Text File
 
-* Place your `speech.txt` (or `input.txt`) in the **same directory** as your main Python script (`main.py`).
+* Place your `speech.txt` (or `input.txt`) in the same directory as your main Python script (`main.py`).
 
 ---
 
