@@ -1,6 +1,6 @@
 # Retrieval-Based QA with Ollama and Chroma
 
-This project uses **Ollama LLM** and **Chroma vector database** to perform retrieval-based question answering on a text file (`speech.txt`). It splits the text into chunks, creates embeddings, and uses the LLM to answer queries based on the content.
+This project uses Ollama LLM and Chroma vector database to perform retrieval-based question answering on a text file (`speech.txt`). It splits the text into chunks, creates embeddings, and uses the LLM to answer queries based on the content.
 
 ---
 
@@ -55,15 +55,6 @@ This downloads the `mistral` model to your local Ollama installation.
 pip install -r requirements.txt
 ```
 
-**Example `requirements.txt`:**
-
-```
-chromadb
-langchain
-langchain-community
-sentence-transformers
-```
-
 ---
 
 ## 5. Prepare Your Text File
@@ -90,12 +81,4 @@ query = "What are the main points or key ideas?"
 Response by the LLM: [The main points from your speech]
 ```
 
----
-
-## Notes
-
-* Ensure your Python virtual environment is activated before running the script.
-* Verify that Ollama and the `mistral` model are installed and accessible in your environment.
-* Keep `speech.txt` in the same directory as `main.py` to ensure the loader works correctly.
-  
 ---
